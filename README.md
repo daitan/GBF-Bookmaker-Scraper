@@ -1,4 +1,4 @@
-# GBF-Matchup-Scraper
+# GBF-Bookmaker-Scraper
 
 Simple script that scrapes the guild war scores of your crew and your opponent every minute and updates a spreadsheet accordingly. Based off of kyoukaya's [gbf-scraper](https://github.com/kyoukaya/gbf-scraper)
 
@@ -28,13 +28,13 @@ Simple script that scrapes the guild war scores of your crew and your opponent e
   9. Open `client_secret.json` and find `client_email` inside and copy this e-mail address.
   10. On the google docs spreadsheet, share the spreadsheet to the e-mail that was copied and ensure that it has permission to edit.
 
-![](https://i.imgur.com/fzwqc2u.gifv)
+![](https://i.imgur.com/fzwqc2u.gif)
   
  ## Usage
  The GW identifier must be 3 digits. e.g. `035` for the 35th GW.
-`usage: matchup-scraper.py [profile] [GW] [finals day] [options]`
+`usage: bookmaker-scraper.py [profile] [GW] [options]`
 
-`example: python matchup-scraper.py profile1 035 5 -l`
+`example: python bookmaker-scraper.py profile1 035 -l`
 
 |flag|arguments|description|
 |---------|---------|-----------|
