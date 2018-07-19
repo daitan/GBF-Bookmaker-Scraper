@@ -1,6 +1,6 @@
 # GBF-Bookmaker-Scraper
 
-Simple script that scrapes the guild war scores of your crew and your opponent every minute and updates a spreadsheet accordingly. Based off of kyoukaya's [gbf-scraper](https://github.com/kyoukaya/gbf-scraper)
+Simple script that scrapes the bookmaker scores every 20 minutes and updates a spreadsheet as well as outputs to a discord webhook accordingly. Loosely based off of kyoukaya's [gbf-scraper](https://github.com/kyoukaya/gbf-scraper)
 
 ## Installation
 
