@@ -28,13 +28,13 @@ Simple script that scrapes the guild war scores of your crew and your opponent e
   9. Open `client_secret.json` and find `client_email` inside and copy this e-mail address.
   10. On the google docs spreadsheet, share the spreadsheet to the e-mail that was copied and ensure that it has permission to edit.
 
-![](https://i.imgur.com/fzwqc2u.gif)
+![](https://i.imgur.com/fzwqc2u.gifv)
   
  ## Usage
  The GW identifier must be 3 digits. e.g. `035` for the 35th GW.
-`usage: bookmaker-scraper.py [profile] [GW] [options]`
+`usage: matchup-scraper.py [profile] [GW] [finals day] [options]`
 
-`example: python bookmaker-scraper.py profile1 035 -l`
+`example: python matchup-scraper.py profile1 035 5 -l`
 
 |flag|arguments|description|
 |---------|---------|-----------|
